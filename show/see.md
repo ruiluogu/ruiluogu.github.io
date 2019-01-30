@@ -2,4 +2,4 @@
 
 list is down here: 
 
-[-non](https://ruiluogu.github.io)
+[articles](https://ruiluogu.github.io/show/articles/list)
