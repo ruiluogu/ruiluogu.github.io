@@ -1,7 +1,8 @@
 # Welcome to the official website of group 7! 
 
 > founding date: 2019/2/23
-> founder: [rui_er](https://www.luogu.org/space/show?uid=122461), CQY
+
+>> founder: [rui_er](https://www.luogu.org/space/show?uid=122461), CQY
 
 > administrators: CQY, KLK, WMX, JNK
 
