@@ -2,8 +2,6 @@
 
 > founding date: 2019/2/23
 
->> founder: [rui_er](https://www.luogu.org/space/show?uid=122461), CQY
-
 > administrators: CQY, KLK, WMX, JNK
 
 visiters: ![](http://cc.amazingcounters.com/counter.php?i=3230021&c=9690376)
