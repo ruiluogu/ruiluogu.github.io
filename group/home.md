@@ -1,4 +1,4 @@
-# Welcome to the official website of group 7! 
+# Welcome to the [official website](https://ruiluogu.github.io/group/home) of group 7! 
 
 > founding date: 2019/2/23
 
