@@ -2,21 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8"> 
-<title>菜鸟教程(runoob.com)</title> 	
+<title>welcome</title> 	
 <script>
-function clickCounter()
+function getWood()
 {
 	if(typeof(Storage)!=="undefined")
 	{
-		if (localStorage.clickcount)
+		if (localStorage.woodNum)
 		{
-			localStorage.clickcount=Number(localStorage.clickcount)+1;
+			localStorage.woodNum=Number(localStorage.woodNum)+5;
 		}
 		else
 		{
-			localStorage.clickcount=1;
+			localStorage.woodNum=5;
 		}
-		document.getElementById("result").innerHTML=" 你已经点击了按钮 " + localStorage.clickcount + " 次 ";
+		document.getElementById("result").innerHTML=" 木头* " + localStorage.clickcount;
 	}
 	else
 	{
@@ -26,9 +26,7 @@ function clickCounter()
 </script>
 </head>
 <body>
-<p><button onclick="clickCounter()" type="button">点我！</button></p>
+<p><button onclick="clickCounter()" type="button">伐木</button></p>
 <div id="result"></div>
-<p>点击该按钮查看计数器的增加。</p>
-<p>关闭浏览器选项卡(或窗口),重新打开此页面,计数器将继续计数(不是重置)。</p>
 </body>
 </html>
