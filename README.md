@@ -11,3 +11,5 @@ visit times: ![](http://cc.amazingcounters.com/counter.php?i=3229526&c=9688891)
 # [school group](https://ruiluogu.github.io/group/home)
 
 # [猜想求证！](https://ruiluogu.github.io/猜想/home)
+
+# [GAME{unfinished}](https://ruiluogu.github.io/game/001)
