@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>rui_er: I AK IOI! </title> 	
+<script>
+function orz()
+{
+	if(typeof(Storage)!=="undefined")
+	{
+		if (localStorage.orz)
+		{
+			localStorage.orz=Number(localStorage.orz)+1;
+      
+		}
+		else
+		{
+			localStorage.orz=1;
+		}
+		document.getElementById("result").innerHTML=" rui_er 已经 AK IOI " + localStorage.orz + " 次 " ;
+	}
+	else
+	{
+		document.getElementById("result").innerHTML="ERROR: 400";
+	}
+}
+</script>
+</head>
+<body>
+<button type="button" onclick="alert('一起orz!')">服用方式</button>
+<p><button onclick="orz()" type="button">orz</button></p>
+<div id="result"></div>
+</body>
+</html>
