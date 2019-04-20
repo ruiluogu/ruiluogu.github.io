@@ -1,34 +1,38 @@
-<!DOCTYPE html>
-<html>
 <head>
-<meta charset="utf-8"> 
-<title>rui_er: I AK IOI! </title> 	
-<script>
-function orz()
-{
-	if(typeof(Storage)!=="undefined")
-	{
-		if (localStorage.orz)
-		{
-			localStorage.orz=Number(localStorage.orz)+1;
-      
+	<meta charset="UTF8">
+	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+	<title>rui_er: I AK IOI</title>
+	<style>
+		* {
+			color: #191970;
+			transition: all 0.3s ease;
+			text-shadow: 0 0 20px #e1ffff;
 		}
-		else
-		{
-			localStorage.orz=1;
+		body {
+			background-color: #87ceeb;
+			text-align: center;
 		}
-		document.getElementById("result").innerHTML=" rui_er 已经 AK IOI " + localStorage.orz + " 次 " ;
-	}
-	else
-	{
-		document.getElementById("result").innerHTML="ERROR: 400";
-	}
-}
-</script>
+		header {
+			margin: 2cm 0;
+		}
+	</style>
 </head>
 <body>
-<button type="button" onclick="alert('一起orz!')">服用方式</button>
-<p><button onclick="orz()" type="button">orz</button></p>
-<div id="result"></div>
+	<header>
+		<h1>rui_er</h1>
+		<img alt="Avatar" src="https://cdn.luogu.org/upload/usericon/122461.png" style="width: 250px; height: 250px; ">
+		<h2>rui_er has AKed IOI many times, although he is only a middle-school OIer</h2>
+		<p>He has AKed IOI <span class="counter">0</span> times.</p>
+		<p>他已经被您膜拜了 <span class="counter">0</span> 次。</p>
+		<button id="mobai" type="button" class="el-button el-button--primary is-plain is-round">点击膜拜</button>
+		<script>
+			var counter = 0;
+			document.getElementById("mobai").onclick = function() {
+				++counter;
+				for(let item of document.getElementsByClassName("counter")) {
+					item.innerText = counter;
+				}
+			}
+		</script>
+	</header>
 </body>
-</html>
