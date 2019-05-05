@@ -1,3 +1,3 @@
-[ruiluogu{uid=-1}](https://ruiluogu.github.io/space/show?uid=-1)
+[ruiluogu{uid=-1}](https://ruiluogu.github.io/space/show/uid=-1)
 
-[I AK IOI{uid=546}](https://ruiluogu.github.io/space/show?uid=546)
+[iakioi{uid=546}](https://ruiluogu.github.io/space/show/uid=546)
