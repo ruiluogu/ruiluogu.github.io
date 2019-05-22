@@ -1,7 +1,8 @@
+<html>
 <head>
 	<meta charset="UTF8">
 	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
-	<title>rui_er: I AK IOI</title>
+	<title>膜拜 {{ name }}</title>
 	<style>
 		* {
 			color: #191970;
@@ -19,9 +20,9 @@
 </head>
 <body>
 	<header>
-		<h1>rui_er</h1>
-		<img alt="Avatar" src="https://cdn.luogu.org/upload/usericon/122461.png" style="width: 250px; height: 250px; ">
-		<h2>rui_er has AKed IOI many times, although he is only a middle-school OIer</h2>
+		<h1>{{ name }}</h1>
+		<img alt="Avatar" src="{{ avatar_url }}" style="width: 250px; height: 250px; ">
+		<h2>{{ description }}</h2>
 		<p>He has AKed IOI <span class="counter">0</span> times.</p>
 		<p>他已经被您膜拜了 <span class="counter">0</span> 次。</p>
 		<button id="mobai" type="button" class="el-button el-button--primary is-plain is-round">点击膜拜</button>
@@ -35,4 +36,8 @@
 			}
 		</script>
 	</header>
+	<p>
+		想了解 <b>akioi.cn</b> 项目？请前往 <a href="https://akioi.cn/">https://akioi.cn/</a> 或访问我们的 <a href="https://github.com/akioi/dot-cn">GitHub</a>。
+	</p>
 </body>
+</html>
