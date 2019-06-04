@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+FredTools-作业系统-添加题目(管理员)
+</title>
+  
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+<form action="createdproblem.php" method=post>
+  题目类型（1填空，2判断）：<input type='text' name='type'  class="form-control"><br>
+  题目标题：<input type='text' name='title'  class="form-control"><br>
+  题目内容：<input type='text' name='detail'  class="form-control"><br>
+  题目答案（如果有多个答案就以空格隔开；判断题的勾用y表示，叉用n表示）：<input type='text' name='answer'  class="form-control"><br>
+  题目id：<input type='text' name='id'  class="form-control"><br>
+  <button type="submit" class="btn btn-success">提交</button>
+</form>
+</body>
+</html>
