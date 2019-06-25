@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>welcome</title> 	
+<script>
+function getWood()
+{
+	if(typeof(Storage)!=="undefined")
+	{
+		if (localStorage.woodNum)
+		{
+			localStorage.woodNum=Number(localStorage.woodNum)+5;
+		}
+		else
+		{
+			localStorage.woodNum=5;
+		}
+		document.getElementById("result").innerHTML=" 木头* " + localStorage.woodNum ;
+	}
+	else
+	{
+		document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。";
+	}
+}
+function getIron()
+{
+	if(typeof(Storage)!=="undefined")
+	{
+		if (localStorage.ironNum)
+		{
+			localStorage.ironNum=Number(localStorage.ironNum)+5;
+		}
+		else
+		{
+			localStorage.ironNum=5;
+		}
+		document.getElementById("result").innerHTML=" 钢铁* " + localStorage.ironNum ;
+	}
+	else
+	{
+		document.getElementById("result").innerHTML="对不起，您的浏览器不支持 web 存储。";
+	}
+}
+</script>
+</head>
+<body>
+<p><button onclick="getWood()" type="button">伐木</button></p>
+<p><button onclick="getIron()" type="button">造铁</button></p>
+<div id="result"></div>
+</body>
+</html>

@@ -1,3 +1,8 @@
-# Welcome to [ruiluogu.github.io](https://ruiluogu.github.io)
+# ruiluogu更新中
 
-# BELONGS TO: [rui_er](https://www.luogu.org/space/show?uid=122461)
+> 2019.2.1 v1.1
+> 2019.2.19 v1.2.1
+> 2019.2.27 v1.2.2
+> 2019.4.3 v2.1
+> 2019.5.2 v2.2
+> 2019.6.4 v3
